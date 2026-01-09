@@ -1,0 +1,80 @@
+body {
+    font-family: Georgia, serif;
+    background-color: #0b1e4a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #ffffff;
+}
+
+/* Main card container */
+.container {
+    width: 100%;
+    max-width: 650px;              /* Bigger screen feel */
+    background: #1a2b5b;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    text-align: center;
+
+    display: flex;                 /* Center all children */
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Title */
+h1 {
+    font-size: 42px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+/* Inputs */
+input {
+    width: 100%;
+    padding: 15px;
+    margin: 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+/* Dropdown */
+select {
+    width: 100%;
+    padding: 15px;
+    margin: 15px 0 25px 0;
+    border-radius: 8px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+}
+
+/* Button */
+button {
+    width: 100%;                   /* Align with inputs */
+    background: #ff7f50;
+    color: white;
+    padding: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+/* Button hover effect */
+button:hover {
+    background: #ff5722;
+    transform: scale(1.05);
+}
+
+/* Prediction text */
+.result {
+    margin-top: 25px;
+    font-size: 26px;
+    color: #020a02;
+    font-weight: bold;
+}
